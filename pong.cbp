@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="pong" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/pong" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/Debug" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/cpp/SFML-2.5.1/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-static-libstdc++" />
+			<Add option="-static-libgcc" />
+			<Add option="-static" />
+			<Add library="sfml-system" />
+			<Add library="sfml-window" />
+			<Add library="sfml-graphics" />
+			<Add directory="C:/cpp/SFML-2.5.1/build/lib" />
+		</Linker>
+		<Unit filename="include/pong-asset.hpp" />
+		<Unit filename="include/pong-game.hpp" />
+		<Unit filename="include/pong-pause.hpp" />
+		<Unit filename="include/pong-play.hpp" />
+		<Unit filename="include/sfml-input.hpp" />
+		<Unit filename="include/sfml-map.hpp" />
+		<Unit filename="include/sfml-object.hpp" />
+		<Unit filename="include/state.hpp" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/pong-asset.cpp" />
+		<Unit filename="src/pong-game.cpp" />
+		<Unit filename="src/pong-pause.cpp" />
+		<Unit filename="src/pong-play.cpp" />
+		<Unit filename="src/sfml-input.cpp" />
+		<Unit filename="src/sfml-map.cpp" />
+		<Unit filename="src/sfml-object.cpp" />
+		<Unit filename="src/state.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
